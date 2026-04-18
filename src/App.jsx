@@ -557,7 +557,7 @@ const S = {
   miniBarWrap:  { width: "100%", background: "#e2e8f0", borderRadius: 99, height: 4, marginTop: 6, overflow: "hidden" },
   miniBar:      { height: 4, borderRadius: 99, transition: "width 0.8s ease" },
 
-  // History
+  // History+
   historyItem: { display: "flex", gap: 14, alignItems: "flex-start", padding: "12px 0", borderBottom: "0.5px solid #e2e8f0" },
   hDotCol:  { display: "flex", flexDirection: "column", alignItems: "center", paddingTop: 3 },
   hDot:     { width: 10, height: 10, borderRadius: "50%", flexShrink: 0 },
