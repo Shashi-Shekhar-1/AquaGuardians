@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 export default function AquaGuardians() {
   const [selectedHostel, setSelectedHostel] = useState(null);
-  const [logs, setLogs] = useState([]);
+  
   const [notifications, setNotifications] = useState([]);
 
   const [tank, setTank] = useState({
@@ -197,7 +197,7 @@ const styles = {
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
-    color: "white",
+    color:"white",
   },
 
   title: { fontSize: "2.5rem" },
@@ -228,7 +228,7 @@ const styles = {
   cards: { display: "flex", gap: "20px", marginTop: "20px" },
 
   card: {
-    background: "white",
+    background: "blue",
     padding: "15px",
     borderRadius: "10px",
     flex: 1,
@@ -244,12 +244,12 @@ const styles = {
   tank: {
     width: "120px",
     height: "240px",
-    border: "4px solid #1e293b",
+    border: "4px solid #0a2147",
     margin: "20px auto",
     position: "relative",
     overflow: "hidden",
     borderRadius: "12px",
-    background: "#e2e8f0",
+    background: "#b1b4b7",
   },
 
   water: {
@@ -257,7 +257,7 @@ const styles = {
     bottom: 0,
     width: "100%",
     background: "linear-gradient(to top, #0ea5e9, #38bdf8)",
-    transition: "height 1s",
+    transition: "height 1.25s",
   },
 
   wave: {
