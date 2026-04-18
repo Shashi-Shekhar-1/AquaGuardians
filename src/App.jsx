@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 export default function AquaGuardians() {
   const [selectedHostel, setSelectedHostel] = useState(null);
-  
+  const[logs,setLogs]=useState([]);
   const [notifications, setNotifications] = useState([]);
 
   const [tank, setTank] = useState({
@@ -257,7 +257,7 @@ const styles = {
     bottom: 0,
     width: "100%",
     background: "linear-gradient(to top, #0ea5e9, #38bdf8)",
-    transition: "height 1.25s",
+    transition: "height 1.s",
   },
 
   wave: {
